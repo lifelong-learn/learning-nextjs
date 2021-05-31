@@ -5,9 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p $PORT"
   },
   "dependencies": {
+    "gray-matter": "^4.0.3",
     "next": "^10.0.0",
     "react": "17.0.1",
     "react-dom": "17.0.1"
